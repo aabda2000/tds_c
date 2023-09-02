@@ -33,16 +33,16 @@ char *string_remove_chr(char *str, const char *bad)
     return str;
 }
 
-char *string_replace_chr(char *str, const char *bad)
+char *string_replace_chr(char *str, const char *rep)
 {
     char *src = str, *dst = str;
 
     /* validate input */
-    if (!(str && bad))
+    if (!(str && rep))
         return NULL;
 
     while (*src)
-        if (string_search_chr(bad, *src))
+        if (string_search_chr(rep, *src))
         {
             *dst = ' ';
             dst++;
