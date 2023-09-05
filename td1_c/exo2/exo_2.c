@@ -6,7 +6,7 @@
 
 /* gcc -Wall -pedantic -std=c99  exo_2.c -o exo2c */
 
-/*Exécution : ./exo1c (puis Tapez sur la touche Entrée) */
+/*Exécution : ./exo2c (puis Tapez sur la touche Entrée) */
 
 int main(void)
 {
