@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-
 /* compilation : gcc -Wall -pedantic -std=c99 -o exo3c exo_3.c */
+
+int string_search_chr(const char *token, char s);
+char *string_remove_chr(char *str, const char *bad);
+char *string_replace_chr(char *str, const char *rep);
+
 /* search for character 's' */
 int string_search_chr(const char *token, char s)
 {

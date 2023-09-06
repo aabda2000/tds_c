@@ -14,6 +14,7 @@ int main(void)
 
     printf("%lu décalée de 4 bits vers la gauche donne: %lu\n", mot, mot << 4);
 
+    /*Bonus*/
     printf("%lu contient ", mot);
     while (true)
     {
