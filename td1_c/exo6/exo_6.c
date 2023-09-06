@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-/* Compilation + Assemblage: gcc -Wall -pedantic -std=c99  exo_6.c -o exo6*/
+/* Compilation + Assemblage +EdL: gcc -Wall -pedantic -std=c99  exo_6.c -o exo6 */
 
 /*Exécution : ./exo6 (puis Tapez sur la touche Entrée) */
 
