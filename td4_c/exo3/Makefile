@@ -1,13 +1,13 @@
 CC = gcc
 CFLAGS = -g -W -Wall -std=c99
 LDFLAGS = 
-OBJ = exo_1.o jeu.o
+OBJ = exo_3.o jeu.o
 
 exo_1: $(OBJ) 
-	$(CC) $(OBJ) $(LDFLAGS) -o exo_1
+	$(CC) $(OBJ) $(LDFLAGS) -o exo_3
 
 jeu.o: jeu.c jeu.h
-exo_1.o : exo_1.c jeu.h
+exo_3.o : exo_3.c jeu.h
 
 clean :
 		rm -f $(OBJ) exo_1
