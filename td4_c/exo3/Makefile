@@ -3,7 +3,7 @@ CFLAGS = -g -W -Wall -std=c99
 LDFLAGS = 
 OBJ = exo_3.o jeu.o
 
-exo_1: $(OBJ) 
+exo_3: $(OBJ) 
 	$(CC) $(OBJ) $(LDFLAGS) -o exo_3
 
 jeu.o: jeu.c jeu.h
