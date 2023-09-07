@@ -10,4 +10,4 @@ jeu.o: jeu.c jeu.h
 exo_3.o : exo_3.c jeu.h
 
 clean :
-		rm -f $(OBJ) exo_1
+		rm -f $(OBJ) exo_3
