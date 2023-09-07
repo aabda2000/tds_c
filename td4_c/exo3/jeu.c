@@ -6,7 +6,7 @@
 int entrer_nombre(void)
 {
     int propos;
-    printf(NB_MSG);
+    printf(ENTRER_NB_MSG);
     scanf("%d", &propos);
     return propos;
 }
@@ -30,6 +30,9 @@ int afficher_comparaison(int proposition, int a_trouver)
         puts(PG_MSG);
         cmp = 0;
     }
-
+    else
+    {
+        puts(SUCCES_MSG);
+    }
     return cmp;
 }
